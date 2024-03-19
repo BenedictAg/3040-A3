@@ -1,10 +1,10 @@
-# CryptoUnited
+# 3040Crypto
 
 
 
 # Endpoints
-GET https://cryptounited.com/
+GET https://3040Crypto.com/accounts/id
 
-PUT https://cryptounited.com/amount?newAmount=amount
+PUT https://3040Crypto.com/amount?newAmount=amount
 
-POST https://cryptounited.com/accountcreation?first=str1&last=str2&balance=amount
+POST https://3040Crypto.com/accountcreation?first=str1&last=str2&balance=amount

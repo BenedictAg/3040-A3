@@ -10,6 +10,6 @@ For more information on how to create API requests and the sample return values 
 # Endpoints
 GET https://3040Crypto.com/accounts/id
 
-PUT https://3040Crypto.com/amount?newAmount=amount
+PUT https://3040Crypto.com/accounts/id/amount?newAmount=amount
 
 POST https://3040Crypto.com/accountcreation?first=str1&last=str2&balance=amount

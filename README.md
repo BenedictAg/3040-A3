@@ -19,22 +19,22 @@ curl https://3040Crypto.com/accounts/id
 
 ```
 {
-    user_id: id,
-    first_name: test,
-    last_name: test,
-    balance: (int) value
-    status: 200 OK
+    "user_id": id,
+    "first_name": "test",
+    "last_name": "test",
+    "balance": (int) value
+    "status": "200 OK"
 }
 ```
 
 curl https://3040Crypto.com/accounts/id/amount?newAmount=amount
 ```
 {
-    user_id: id,
-    name: test test,
-    old_amount: 400000,
-    new_amount: amount,
-    status: 200 OK
+    "user_id": id,
+    "name": "test test",
+    "old_amount": 400000,
+    "new_amount": amount,
+    "status": "200 OK"
 }
 ```
 
@@ -42,5 +42,5 @@ curl https://3040Crypto.com/accountcreation?first=str1&last=str2&balance=amount
 
 ```
 {
-    status: 200 OK
+    "status": "200 OK"
 }

@@ -4,7 +4,7 @@ For 3040Crypto to prosper, implementing an API is necessary. Our API serves thre
 <br />
 
 ### Resource
-For more information on how to create API requests and the sample return values given, I encourage you to check this article on API examples.
+For more information on how to create API requests and the sample return values given, I encourage you to check [this](https://anvilproject.org/guides/content/creating-links) article on API examples.
 
 
 # Endpoints

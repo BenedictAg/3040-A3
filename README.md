@@ -26,6 +26,12 @@ curl https://3040Crypto.com/accounts/id
     "status": "200 OK"
 }
 ```
+**The JSON represents a user with these properties:**
+- **user_id** - A unique identifier for the user.
+- **first_name** - The user's first name.
+- **last_name** - The user's last name.
+- **balance** - the balance associated for the given user.
+- **status** - The request status; "**200 OK**" which indicates success.
 
 curl https://3040Crypto.com/accounts/id/amount?newAmount=amount
 ```
@@ -38,6 +44,12 @@ curl https://3040Crypto.com/accounts/id/amount?newAmount=amount
     "status": "200 OK"
 }
 ```
+**The JSON represents a transaction with these attributes:**
+- **user_id** - A unique identifier for the user.
+- **name** - The name of the user (first and last name).
+- **old_amount** - The previous balance held by the user.
+- **new_amount** - The new balance given to the user.
+- **status** - The request status; "**200 OK**" which indicates success.
 
 curl https://3040Crypto.com/accountcreation?first=str1&last=str2&balance=amount
 
@@ -46,6 +58,8 @@ curl https://3040Crypto.com/accountcreation?first=str1&last=str2&balance=amount
     "status": "200 OK"
 }
 ```
+**The JSON represents the status of a request for creating an account with these properties:**
+- **status** - The request status; "**200 OK**" which indicates success.
 
 # Sample Example
 

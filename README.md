@@ -34,6 +34,7 @@ curl https://3040Crypto.com/accounts/id/amount?newAmount=amount
     "name": "test test",
     "old_amount": 400000,
     "new_amount": amount,
+    "total_amount": sum(400000, amount),
     "status": "200 OK"
 }
 ```
@@ -44,3 +45,37 @@ curl https://3040Crypto.com/accountcreation?first=str1&last=str2&balance=amount
 {
     "status": "200 OK"
 }
+```
+
+# Sample Example
+
+curl https://3040Crypto.com/accounts/4325
+```
+{
+    "user_id": 4325,
+    "first_name": "Sachin",
+    "last_name": "Bhatt",
+    "balance": 800000,
+    "status": "200 OK"
+}
+```
+
+curl https://3040Crypto.com/accounts/1234/amount?newAmount=54000
+```
+{
+    "user_id": 1234,
+    "name": "Sachin Bhatt",
+    "old_amount": 400000,
+    "new_amount": 54000,
+    "total_amount": 454000,
+    "status": "200 OK"
+}
+```
+
+curl https://3040Crypto.com/accountcreation?first=Sachin&last=Bhatt&balance=1234567
+
+```
+{
+    "status": "200 OK"
+}
+```
